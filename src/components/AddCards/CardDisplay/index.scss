@@ -1,0 +1,40 @@
+.card{
+  width: 200px;
+  display: inline-block;
+  background-color: inherit;
+  position: relative;
+}
+
+.add-button{
+  position: absolute;
+  top: 240px;
+  right: 5px;
+  z-index: 1;
+  display: inline-block;
+  border-radius: 10%;
+  color: black;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+.footer-btns {
+  background-color: #b89d7e !important;
+  color:rgb(0, 0, 0) !important;
+  font-weight: bold !important;
+}
+
+.footer-btns-btn.active {
+  background-color: #dbbc9b !important;
+  color:rgb(0, 0, 0) !important;
+  font-weight: bold;
+}
+
+.quantity {
+  height: 40px;
+  width: 100% ;
+  background-color: #dfdbd7;
+  border: none;
+  color: black;
+  font-weight: bold;
+  border-radius: .25rem;
+}

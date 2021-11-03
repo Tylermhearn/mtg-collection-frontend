@@ -1,0 +1,13 @@
+/* Declare some variables */
+$base-color: #b89d7e;
+$light-background: lighten(desaturate($base-color, 50%), 12.5%);
+
+.navbar {
+  background-color: $base-color;
+  flex: auto;
+}
+
+.navbar-brand {
+  color: black !important;
+  font-weight: bold !important;
+}

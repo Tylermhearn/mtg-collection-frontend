@@ -1,0 +1,25 @@
+  
+.context-menu {
+  width: 100px;
+  position: fixed;
+  border-radius: 3px;
+  box-shadow: 2px 2px;
+  background-color: #676b6e;
+  z-index: 2;
+}
+
+.context-menu .context-menu__item {
+  font-weight: bold;
+  color: #e7d6c3;
+  -webkit-text-stroke: .25px black;
+  padding: 4px;
+}
+
+.context-menu .context-menu__item:not(:first-child) {
+  border-top: 1px solid black;
+}
+
+.context-menu .context-menu__item:hover {
+  background-color: #7e8285;
+  cursor: pointer;
+}

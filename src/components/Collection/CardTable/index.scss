@@ -1,0 +1,42 @@
+$base-color: #b89d7e;
+$lighter-base-color: #dbbc9b;
+$light-background: lighten(desaturate($base-color, 50%), 12.5%);
+
+
+hr.filter {
+  border-top-color: #333;
+}
+
+div.card{
+  width: 200px;
+  display: inline-block;
+  background-color: inherit;
+  position: relative;
+}
+
+.price {
+  position: absolute;
+  color: white;
+  top: 255px;
+  height: 20px;
+  left: 15px;
+  z-index: 1;
+  display: inline-block;
+  background-color: $light-background;
+  border-radius: 10%;
+  color: black;
+  font-weight: bold;
+}
+
+img.photo {
+  height: 280px;
+  width: 200px; 
+  border-radius: 4%;
+  position: relative;
+}
+
+div.photo-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

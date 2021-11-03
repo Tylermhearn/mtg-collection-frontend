@@ -1,0 +1,39 @@
+.form{
+  width: 31%;
+}
+
+.form-input {
+  height: 40px;
+  width: 100% ;
+  background-color: #dfdbd7;
+  border: none;
+  color: black;
+  font-weight: bold;
+  border-radius: .25rem;
+}
+
+.foil {
+  height: 40px;
+  background-color: #b89d7e !important;
+  color:rgb(0, 0, 0) !important;
+  font-weight: bold !important;
+}
+
+.foil.active {
+  height: 40px;
+  background-color: #dbbc9b !important;
+  color:rgb(0, 0, 0) !important;
+  font-weight: bold !important;
+}
+
+.card-table-btn {
+  background-color: #b89d7e !important;
+  color:rgb(0, 0, 0) !important;
+  font-weight: bold !important;
+}
+
+.card-table-btn.active {
+  background-color: #dbbc9b !important;
+  color:rgb(0, 0, 0) !important;
+  font-weight: bold;
+}

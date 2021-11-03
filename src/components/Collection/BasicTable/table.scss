@@ -1,0 +1,36 @@
+$base-color: #b89d7e;
+
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  border: 1px solid $base-color;
+  padding: 8px;
+}
+
+table tr {
+  background-color: #968f89;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #ccc6b0;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th,
+tfoot td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: $base-color;
+  color: black;
+  font-weight: bold;
+}
