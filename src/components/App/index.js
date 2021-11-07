@@ -15,12 +15,12 @@ import './index.scss'
 
 const AppContent = () => {
 
-  let history = useHistory();
-  const token = localStorage.getItem("token")
+  // let history = useHistory();
+  // const token = localStorage.getItem("token")
 
-  if (token === null || token === '') {
-    history.push('/login')
-  }
+  // if (token === null || token === '') {
+  //   history.push('/login')
+  // }
 
   return (
     <Container className='px-4' fluid={true} role='main'>

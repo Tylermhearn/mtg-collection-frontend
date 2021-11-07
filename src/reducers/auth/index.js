@@ -6,7 +6,7 @@ const { isAsyncComplete } = reducerHelpers
 const initialState = null
 
 const complete = (action) => {
-  if (action.response.status != 200) return null
+  if (action.response.status !== 200) return null
   return (action.response.token)
 }
 

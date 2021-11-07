@@ -66,11 +66,11 @@ const Pagination = ({ data, currentPage, setCurrentPage, setCardsPerPage, table,
             <h2 className={['text-light py-2 pr-4 m-0', currentPage ? 'border-gray border-right' : ''].join(' ').trim()}>
               <strong className="text-light">{data.length}</strong> Cards
             </h2>
-            {currentPage && (
+            {/* {currentPage && (
               <span className="current-page d-inline-block h-100 pl-4 text-light">
-                Page <span className="font-weight-bold">{currentPage}</span> / <span className="font-weight-bold">{totalPages}</span>
+                <span className="font-weight-bold">Page {currentPage}</span> / <span className="font-weight-bold">{totalPages}</span>
               </span>
-            )}
+            )} */}
           </div>
           <ButtonGroup>
             <Button className='table-btn' onClick={() => {

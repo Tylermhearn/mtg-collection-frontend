@@ -43,17 +43,11 @@ const ContextMenu = ({ parentRef, items, card, call, scryfallGetCard }) => {
     <div className='context-menu' style={style}>
       {items.map((item, index) => {
         return (
-          <div
-            key={index}
-            onClick={() => item.onClick(card, call, scryfallGetCard)}
-            className='context-menu__item'
-          >
-            {item.text}
-          </div>
-        );
+          <div key={index} onClick={() => item.onClick(card, call, scryfallGetCard)} className='context-menu__item'> {item.text} </div>
+        )
       })}
     </div>
-  ) : null;
+  ) : null
 };
 
 export default ContextMenu;
